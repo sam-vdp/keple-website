@@ -14,14 +14,10 @@ body {
     font-style: normal;
 }
 
-.text p {
-	font-family: sans-serif;
-	text-align: justify;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 5px;
+.emph {
+	font-size: 1.2em;
+	font-weight: bold;
 }
-
 .container {
 	width: 600px;
 	text-align: center;
@@ -34,6 +30,7 @@ body {
 }
 
 .logo {
+	font-size: 0;
     width: 512px;
     height: 84px;
     background-image: url('../img/logo.png');
@@ -48,6 +45,7 @@ body {
 	margin-right: 10px;
     border-color: #000000;
 	display: inline-block;
+	font-size: 0;
 }
 
 .play {
